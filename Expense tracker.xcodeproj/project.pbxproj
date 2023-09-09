@@ -24,6 +24,7 @@
 		E38AD9FD2AAC848000B60708 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38AD9FC2AAC848000B60708 /* Theme.xcassets */; };
 		E38ADA002AAC898A00B60708 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AD9FF2AAC898A00B60708 /* Color+Extension.swift */; };
 		E38ADA022AAC8B5500B60708 /* ETColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38ADA012AAC8B5500B60708 /* ETColor.swift */; };
+		E38ADA052AAC8CE900B60708 /* ETAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38ADA042AAC8CE900B60708 /* ETAvatar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E38AD9FC2AAC848000B60708 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 		E38AD9FF2AAC898A00B60708 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		E38ADA012AAC8B5500B60708 /* ETColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETColor.swift; sourceTree = "<group>"; };
+		E38ADA042AAC8CE900B60708 /* ETAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETAvatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		E332FC842AAC75F100523A71 /* Expense tracker */ = {
 			isa = PBXGroup;
 			children = (
+				E38ADA032AAC8CD100B60708 /* Component */,
 				E38AD9FE2AAC897300B60708 /* Asset */,
 				E38AD9F62AAC7C4800B60708 /* Expense-tracker-Info.plist */,
 				E30627F92AAC7AAE00B746D1 /* Font */,
@@ -122,6 +125,14 @@
 				E38ADA012AAC8B5500B60708 /* ETColor.swift */,
 			);
 			path = Asset;
+			sourceTree = "<group>";
+		};
+		E38ADA032AAC8CD100B60708 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E38ADA042AAC8CE900B60708 /* ETAvatar.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38ADA022AAC8B5500B60708 /* ETColor.swift in Sources */,
+				E38ADA052AAC8CE900B60708 /* ETAvatar.swift in Sources */,
 				E332FC882AAC75F100523A71 /* ContentView.swift in Sources */,
 				E38ADA002AAC898A00B60708 /* Color+Extension.swift in Sources */,
 				E332FC862AAC75F100523A71 /* Expense_trackerApp.swift in Sources */,
