@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-enum ETImageName: String {
-    case income = "income"
-    case expense = "expense"
-}
-
 
 extension Image {
     init(name: ETImageName) {
