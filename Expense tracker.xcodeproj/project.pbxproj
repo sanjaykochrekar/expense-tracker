@@ -103,11 +103,10 @@
 			children = (
 				E38ADA032AAC8CD100B60708 /* Component */,
 				E38AD9FE2AAC897300B60708 /* Asset */,
-				E38AD9F62AAC7C4800B60708 /* Expense-tracker-Info.plist */,
 				E30627F92AAC7AAE00B746D1 /* Font */,
+				E38AD9F62AAC7C4800B60708 /* Expense-tracker-Info.plist */,
 				E332FC852AAC75F100523A71 /* Expense_trackerApp.swift */,
 				E332FC872AAC75F100523A71 /* ContentView.swift */,
-				E332FC892AAC75F300523A71 /* Assets.xcassets */,
 				E332FC8B2AAC75F300523A71 /* Preview Content */,
 			);
 			path = "Expense tracker";
@@ -121,13 +120,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E38AD9FE2AAC897300B60708 /* Asset */ = {
+		E36A49FD2AACE0E100699561 /* Color */ = {
 			isa = PBXGroup;
 			children = (
 				E38AD9FC2AAC848000B60708 /* Theme.xcassets */,
 				E38AD9FF2AAC898A00B60708 /* Color+Extension.swift */,
 				E38ADA012AAC8B5500B60708 /* ETColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		E36A49FE2AACE0FC00699561 /* Image */ = {
+			isa = PBXGroup;
+			children = (
 				E38ADA062AACA34000B60708 /* Image+Extension.swift */,
+				E332FC892AAC75F300523A71 /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E38AD9FE2AAC897300B60708 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				E36A49FD2AACE0E100699561 /* Color */,
+				E36A49FE2AACE0FC00699561 /* Image */,
 			);
 			path = Asset;
 			sourceTree = "<group>";
