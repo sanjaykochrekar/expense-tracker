@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ETHomeCard: View {
-    var image: ETImageName = .income
     var label: String = "Label"
     var value: String = "5000"
     
-    var background: ETColor = .red100
+    private var image: ETImageName = .income
+    private var background: ETColor = .red100
     
     
     var body: some View {
@@ -39,14 +39,30 @@ struct ETHomeCard: View {
         .cornerRadius(24)
     }
     
-//    public mutating func backgroundColor(_ color: ETColor) -> Self {
-//        self.background = color
-//        return self
-//    }
+    init(label: String, value: String) {
+        self.label = label
+        self.value = value
+
+    }
+    
+    public func backgroundColor(_ color: ETColor) -> Self {
+        var returnView = self
+        returnView.background = color
+        return returnView
+    }
+    
+    public func image(_ image: ETImageName) -> Self {
+        var returnView = self
+        returnView.image = image
+        return returnView
+    }
 }
 
 struct ETHomeCard_Previews: PreviewProvider {
     static var previews: some View {
-        ETHomeCard(background: .green100)
+        ETHomeCard(label: "Income", value: "1000")
+            .image(.expense)
+            .backgroundColor(.red100)
+           
     }
 }
