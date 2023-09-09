@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30628032AAC7B0700B746D1 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30627FE2AAC7AD900B746D1 /* Inter-Black.ttf */; };
+		E30628042AAC7B0C00B746D1 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30627FB2AAC7AD900B746D1 /* Inter-Bold.ttf */; };
+		E30628052AAC7B0F00B746D1 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30628002AAC7AD900B746D1 /* Inter-ExtraBold.ttf */; };
+		E30628062AAC7B1500B746D1 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30628012AAC7AD900B746D1 /* Inter-Medium.ttf */; };
+		E30628072AAC7B1500B746D1 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30627FA2AAC7AD900B746D1 /* Inter-ExtraLight.ttf */; };
+		E30628082AAC7B1500B746D1 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30627FC2AAC7AD900B746D1 /* Inter-Light.ttf */; };
+		E30628092AAC7B1500B746D1 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30627FF2AAC7AD900B746D1 /* Inter-Thin.ttf */; };
+		E306280A2AAC7B1500B746D1 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30628022AAC7AD900B746D1 /* Inter-Regular.ttf */; };
+		E306280B2AAC7B1500B746D1 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30627FD2AAC7AD900B746D1 /* Inter-SemiBold.ttf */; };
 		E332FC862AAC75F100523A71 /* Expense_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332FC852AAC75F100523A71 /* Expense_trackerApp.swift */; };
 		E332FC882AAC75F100523A71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332FC872AAC75F100523A71 /* ContentView.swift */; };
 		E332FC8A2AAC75F300523A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E332FC892AAC75F300523A71 /* Assets.xcassets */; };
 		E332FC8D2AAC75F300523A71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E332FC8C2AAC75F300523A71 /* Preview Assets.xcassets */; };
+		E38AD9F82AAC7F0D00B60708 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AD9F72AAC7F0D00B60708 /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30627FA2AAC7AD900B746D1 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E30627FB2AAC7AD900B746D1 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		E30627FC2AAC7AD900B746D1 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		E30627FD2AAC7AD900B746D1 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		E30627FE2AAC7AD900B746D1 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		E30627FF2AAC7AD900B746D1 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		E30628002AAC7AD900B746D1 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E30628012AAC7AD900B746D1 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		E30628022AAC7AD900B746D1 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		E332FC822AAC75F100523A71 /* Expense tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E332FC852AAC75F100523A71 /* Expense_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_trackerApp.swift; sourceTree = "<group>"; };
 		E332FC872AAC75F100523A71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E332FC892AAC75F300523A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E332FC8C2AAC75F300523A71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E38AD9F62AAC7C4800B60708 /* Expense-tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Expense-tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E38AD9F72AAC7F0D00B60708 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +53,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E30627F92AAC7AAE00B746D1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E30627FE2AAC7AD900B746D1 /* Inter-Black.ttf */,
+				E30627FB2AAC7AD900B746D1 /* Inter-Bold.ttf */,
+				E30628002AAC7AD900B746D1 /* Inter-ExtraBold.ttf */,
+				E30627FA2AAC7AD900B746D1 /* Inter-ExtraLight.ttf */,
+				E30627FC2AAC7AD900B746D1 /* Inter-Light.ttf */,
+				E30628012AAC7AD900B746D1 /* Inter-Medium.ttf */,
+				E30628022AAC7AD900B746D1 /* Inter-Regular.ttf */,
+				E30627FD2AAC7AD900B746D1 /* Inter-SemiBold.ttf */,
+				E30627FF2AAC7AD900B746D1 /* Inter-Thin.ttf */,
+				E38AD9F72AAC7F0D00B60708 /* Font+Extension.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		E332FC792AAC75F100523A71 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +89,8 @@
 		E332FC842AAC75F100523A71 /* Expense tracker */ = {
 			isa = PBXGroup;
 			children = (
+				E38AD9F62AAC7C4800B60708 /* Expense-tracker-Info.plist */,
+				E30627F92AAC7AAE00B746D1 /* Font */,
 				E332FC852AAC75F100523A71 /* Expense_trackerApp.swift */,
 				E332FC872AAC75F100523A71 /* ContentView.swift */,
 				E332FC892AAC75F300523A71 /* Assets.xcassets */,
@@ -125,7 +165,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30628052AAC7B0F00B746D1 /* Inter-ExtraBold.ttf in Resources */,
 				E332FC8D2AAC75F300523A71 /* Preview Assets.xcassets in Resources */,
+				E30628092AAC7B1500B746D1 /* Inter-Thin.ttf in Resources */,
+				E306280B2AAC7B1500B746D1 /* Inter-SemiBold.ttf in Resources */,
+				E30628082AAC7B1500B746D1 /* Inter-Light.ttf in Resources */,
+				E30628062AAC7B1500B746D1 /* Inter-Medium.ttf in Resources */,
+				E30628072AAC7B1500B746D1 /* Inter-ExtraLight.ttf in Resources */,
+				E306280A2AAC7B1500B746D1 /* Inter-Regular.ttf in Resources */,
+				E30628032AAC7B0700B746D1 /* Inter-Black.ttf in Resources */,
+				E30628042AAC7B0C00B746D1 /* Inter-Bold.ttf in Resources */,
 				E332FC8A2AAC75F300523A71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +188,7 @@
 			files = (
 				E332FC882AAC75F100523A71 /* ContentView.swift in Sources */,
 				E332FC862AAC75F100523A71 /* Expense_trackerApp.swift in Sources */,
+				E38AD9F82AAC7F0D00B60708 /* Font+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,6 +320,8 @@
 				DEVELOPMENT_TEAM = C88SJ52M22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Expense-tracker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +351,8 @@
 				DEVELOPMENT_TEAM = C88SJ52M22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Expense-tracker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
