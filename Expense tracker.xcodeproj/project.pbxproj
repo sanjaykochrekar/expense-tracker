@@ -23,6 +23,7 @@
 		E36A4A002AACE15300699561 /* ETHomeListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A49FF2AACE15300699561 /* ETHomeListItem.swift */; };
 		E36A4A022AACE20900699561 /* ETImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A4A012AACE20900699561 /* ETImageName.swift */; };
 		E36A4A042AAD761E00699561 /* ETBackNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A4A032AAD761E00699561 /* ETBackNavBar.swift */; };
+		E36A4A062AAD813B00699561 /* ETPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A4A052AAD813B00699561 /* ETPrimaryButton.swift */; };
 		E38AD9F82AAC7F0D00B60708 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AD9F72AAC7F0D00B60708 /* Font+Extension.swift */; };
 		E38AD9FD2AAC848000B60708 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38AD9FC2AAC848000B60708 /* Theme.xcassets */; };
 		E38ADA002AAC898A00B60708 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AD9FF2AAC898A00B60708 /* Color+Extension.swift */; };
@@ -50,6 +51,7 @@
 		E36A49FF2AACE15300699561 /* ETHomeListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETHomeListItem.swift; sourceTree = "<group>"; };
 		E36A4A012AACE20900699561 /* ETImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETImageName.swift; sourceTree = "<group>"; };
 		E36A4A032AAD761E00699561 /* ETBackNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETBackNavBar.swift; sourceTree = "<group>"; };
+		E36A4A052AAD813B00699561 /* ETPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETPrimaryButton.swift; sourceTree = "<group>"; };
 		E38AD9F62AAC7C4800B60708 /* Expense-tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Expense-tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E38AD9F72AAC7F0D00B60708 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		E38AD9FC2AAC848000B60708 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				E38ADA082AACA3F200B60708 /* ETHomeCard.swift */,
 				E36A49FF2AACE15300699561 /* ETHomeListItem.swift */,
 				E36A4A032AAD761E00699561 /* ETBackNavBar.swift */,
+				E36A4A052AAD813B00699561 /* ETPrimaryButton.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				E38ADA072AACA34000B60708 /* Image+Extension.swift in Sources */,
 				E38ADA022AAC8B5500B60708 /* ETColor.swift in Sources */,
 				E36A4A042AAD761E00699561 /* ETBackNavBar.swift in Sources */,
+				E36A4A062AAD813B00699561 /* ETPrimaryButton.swift in Sources */,
 				E38ADA052AAC8CE900B60708 /* ETAvatar.swift in Sources */,
 				E332FC882AAC75F100523A71 /* ContentView.swift in Sources */,
 				E38ADA002AAC898A00B60708 /* Color+Extension.swift in Sources */,
