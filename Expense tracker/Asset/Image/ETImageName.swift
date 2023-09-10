@@ -9,6 +9,8 @@
 
 enum ETImageName: String {
     
+    case none = "none"
+    
     case income = "income"
     case expense = "expense"
     
@@ -17,6 +19,13 @@ enum ETImageName: String {
     case restaurant = "restaurant"
     case car = "car"
     case salary = "salary"
+    
+    case backNavLight = "backNavLight"
+    case backNavDark = "backNavDark"
+    
+    case trashLight = "trashLight"
+    case trashDark = "trashDark"
+    case editDark = "editDark"
     
 }
 
