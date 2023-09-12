@@ -29,6 +29,7 @@
 		E36A4A0E2AAF5A7600699561 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A4A0D2AAF5A7600699561 /* HomeView.swift */; };
 		E36A4A102AAF7C2B00699561 /* PinDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A4A0F2AAF7C2B00699561 /* PinDot.swift */; };
 		E36A4A122AB0A3FC00699561 /* ETKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A4A112AB0A3FC00699561 /* ETKeyboard.swift */; };
+		E36A4A162AB0D80900699561 /* LockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A4A142AB0D06300699561 /* LockScreen.swift */; };
 		E38AD9F82AAC7F0D00B60708 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AD9F72AAC7F0D00B60708 /* Font+Extension.swift */; };
 		E38AD9FD2AAC848000B60708 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38AD9FC2AAC848000B60708 /* Theme.xcassets */; };
 		E38ADA002AAC898A00B60708 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AD9FF2AAC898A00B60708 /* Color+Extension.swift */; };
@@ -300,6 +301,7 @@
 				E36A4A042AAD761E00699561 /* ETBackNavBar.swift in Sources */,
 				E36A4A122AB0A3FC00699561 /* ETKeyboard.swift in Sources */,
 				E36A4A062AAD813B00699561 /* ETPrimaryButton.swift in Sources */,
+				E36A4A162AB0D80900699561 /* LockScreen.swift in Sources */,
 				E38ADA052AAC8CE900B60708 /* ETAvatar.swift in Sources */,
 				E332FC882AAC75F100523A71 /* ContentView.swift in Sources */,
 				E38ADA002AAC898A00B60708 /* Color+Extension.swift in Sources */,
