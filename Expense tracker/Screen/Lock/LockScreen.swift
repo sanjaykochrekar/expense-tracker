@@ -9,7 +9,16 @@ import SwiftUI
 
 struct LockScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            PinDot(total: 4, closed: 3)
+                .frame(width: 120)
+            Spacer()
+            ETKeyboard { key in
+                print(key)
+            }
+        }
+        .background(Color.appColor(.violet100))
     }
 }
 

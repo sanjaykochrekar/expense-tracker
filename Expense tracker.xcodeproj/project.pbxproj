@@ -62,6 +62,7 @@
 		E36A4A0D2AAF5A7600699561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E36A4A0F2AAF7C2B00699561 /* PinDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinDot.swift; sourceTree = "<group>"; };
 		E36A4A112AB0A3FC00699561 /* ETKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETKeyboard.swift; sourceTree = "<group>"; };
+		E36A4A142AB0D06300699561 /* LockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreen.swift; sourceTree = "<group>"; };
 		E38AD9F62AAC7C4800B60708 /* Expense-tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Expense-tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E38AD9F72AAC7F0D00B60708 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		E38AD9FC2AAC848000B60708 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 		E36A4A0B2AAF5A6400699561 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E36A4A132AB0D04E00699561 /* Lock */,
 				E36A4A0C2AAF5A6900699561 /* Home */,
 			);
 			path = Screen;
@@ -173,6 +175,14 @@
 				E36A4A0D2AAF5A7600699561 /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		E36A4A132AB0D04E00699561 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				E36A4A142AB0D06300699561 /* LockScreen.swift */,
+			);
+			path = Lock;
 			sourceTree = "<group>";
 		};
 		E38AD9FE2AAC897300B60708 /* Asset */ = {
