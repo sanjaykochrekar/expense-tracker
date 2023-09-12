@@ -137,6 +137,7 @@ struct ETKeyboard_Previews: PreviewProvider {
     static var previews: some View {
         ETKeyboard { key in
             print(key.rawValue)
-        }.background(Color.appColor(.violet100))
+        }
+        .background(Color.appColor(.violet100))
     }
 }
