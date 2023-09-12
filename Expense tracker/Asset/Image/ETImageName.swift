@@ -27,5 +27,7 @@ enum ETImageName: String {
     case trashDark = "trashDark"
     case editDark = "editDark"
     
+    case clear = "clear"
+    
 }
 
