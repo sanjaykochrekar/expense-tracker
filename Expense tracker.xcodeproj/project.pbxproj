@@ -38,6 +38,7 @@
 		E38ADA052AAC8CE900B60708 /* ETAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38ADA042AAC8CE900B60708 /* ETAvatar.swift */; };
 		E38ADA072AACA34000B60708 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38ADA062AACA34000B60708 /* Image+Extension.swift */; };
 		E38ADA092AACA3F200B60708 /* ETHomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38ADA082AACA3F200B60708 /* ETHomeCard.swift */; };
+		E3CAC34D2AB7654B0067D1FF /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAC34C2AB7654B0067D1FF /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		E38ADA042AAC8CE900B60708 /* ETAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETAvatar.swift; sourceTree = "<group>"; };
 		E38ADA062AACA34000B60708 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
 		E38ADA082AACA3F200B60708 /* ETHomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETHomeCard.swift; sourceTree = "<group>"; };
+		E3CAC34C2AB7654B0067D1FF /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		E332FC842AAC75F100523A71 /* Expense tracker */ = {
 			isa = PBXGroup;
 			children = (
+				E3CAC34A2AB765250067D1FF /* Util */,
 				E36A4A0B2AAF5A6400699561 /* Screen */,
 				E38ADA032AAC8CD100B60708 /* Component */,
 				E38AD9FE2AAC897300B60708 /* Asset */,
@@ -212,6 +215,22 @@
 				E31BC41E2AB216DE00AD850B /* ETTextFieldModifier.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		E3CAC34A2AB765250067D1FF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAC34B2AB7652E0067D1FF /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E3CAC34B2AB7652E0067D1FF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAC34C2AB7654B0067D1FF /* View+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +331,7 @@
 				E31BC41F2AB216DE00AD850B /* ETTextFieldModifier.swift in Sources */,
 				E332FC862AAC75F100523A71 /* Expense_trackerApp.swift in Sources */,
 				E38AD9F82AAC7F0D00B60708 /* Font+Extension.swift in Sources */,
+				E3CAC34D2AB7654B0067D1FF /* View+Extension.swift in Sources */,
 				E38ADA092AACA3F200B60708 /* ETHomeCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

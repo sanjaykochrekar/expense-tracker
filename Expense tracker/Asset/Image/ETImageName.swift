@@ -29,5 +29,8 @@ enum ETImageName: String {
     
     case clear = "clear"
     
+    case notifiaction = "notifiaction"
+    case arrowDown = "arrowDown"
+    
 }
 
