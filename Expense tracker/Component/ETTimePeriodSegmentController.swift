@@ -24,7 +24,6 @@ struct ETTimePeriodSegmentController: View {
                     Rectangle()
                         .fill(Color.appColor(color))
                         .cornerRadius(20)
-                        .padding(2)
                         .opacity(isSelected ? 1 : 0.01)
                         .onTapGesture {
                             withAnimation(.interactiveSpring(response: 0.2,
@@ -42,7 +41,7 @@ struct ETTimePeriodSegmentController: View {
                 )
             }
         }
-        .frame(height: 40)
+        .frame(height: 34)
         .cornerRadius(20)
     }
 }
